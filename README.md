@@ -570,7 +570,7 @@ print_r($account);
 ### Verifica se usuário já possui conta Moip
 ```php
 // retorna verdadeiro se já possui e falso caso não possuir conta Moip
-$moip->accounts()->checkAccountExists(CPF);
+$moip->accounts()->checkExistence(CPF);
 ```
 
 ### Obter chave pública de uma Conta Moip
